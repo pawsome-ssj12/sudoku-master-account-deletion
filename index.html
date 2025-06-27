@@ -1,27 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Delete Account – Sudoku Master</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: sans-serif; padding: 2rem; line-height: 1.6; }
-    h1 { color: #333; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1f2a38;
+      color: #f0f4f8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #c0d3e0;
+      margin-top: 0;
+    }
+
+    .content {
+      background-color: #2c3e50;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 700px;
+      width: 100%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    a {
+      color: #82cfff;
+    }
+
+    strong {
+      color: #ffffff;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #8a9ba8;
+    }
   </style>
 </head>
 <body>
-  <h1>Delete Your Sudoku Master Game Account</h1>
-  <p>If you signed into the Sudoku Master Game using Google, a user account was created to show your name on the leaderboard.</p>
-  <p>To request deletion of your account and all associated data, please email us at:</p>
-  <p><strong>📧 pawsome.ssj12@gmail.com</strong></p>
+  <header>
+    <h1>Sudoku Master</h1>
+    <h2>Delete your Sudoku Master game account</h2>
+  </header>
 
-  <h3>What data is deleted?</h3>
-  <ul>
-    <li>Your display name</li>
-    <li>Your game score (if associated with your account)</li>
-  </ul>
+  <div class="content">
+    <p>
+      If you signed into the Sudoku Master game using Google, a user account was created to show your name on the leaderboard.
+    </p>
 
-  <p>Once we receive your request, the data will be deleted within <strong>30 days</strong>.</p>
-  <p>If you did not sign in with Google, we do not collect or store any personal data.</p>
+    <p>
+      To request deletion of your account and all associated data, please email us at:
+    </p>
+
+    <p>
+      <strong>📧 sudoku-support@example.com</strong>
+    </p>
+
+    <h3>📦 What data is deleted?</h3>
+    <ul>
+      <li>Your display name</li>
+      <li>Your leaderboard score</li>
+    </ul>
+
+    <p>
+      Once we receive your request, the data will be deleted within <strong>30 days</strong>.
+    </p>
+
+    <p>
+      If you did not sign in with Google, we do not collect or store any personal data.
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2025 Sudoku Master. All rights reserved.
+  </footer>
 </body>
 </html>
